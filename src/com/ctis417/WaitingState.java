@@ -7,7 +7,7 @@ public class WaitingState implements CarState {
     public WaitingState(Car stateOfCar) {
         this.stateOfCar=stateOfCar;
     }
-
+    
     @Override
     public void startButton() {
         System.out.println("You have already started your car.");
